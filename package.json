@@ -1,0 +1,18 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "MY REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "spec/apitest.js"
+  },
+  "author": "Ashish Ghosh",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "json-server": "^0.16.1",
+    "mocha": "^8.0.1",
+    "request": "^2.88.2",
+    "should": "^13.2.3"
+  }
+}
