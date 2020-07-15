@@ -17,6 +17,6 @@ steps:
 
 - script: |
     npm install
-    npx json-server --watch db.json
+    npx json-server --watch db.json &
     npx mocha
   displayName: 'npm install and build'
