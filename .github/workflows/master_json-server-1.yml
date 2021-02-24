@@ -1,4 +1,4 @@
-name: Deploy JSON Server to Azure Web App
+name: Build and deploy Node.js app to Azure Web App - json-server-1
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@master
@@ -24,4 +24,4 @@ jobs:
         app-name: 'json-server-1'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_e52ab2b27cb74e44b7a6ee2b1bf6386c }}
-        package: .
+
