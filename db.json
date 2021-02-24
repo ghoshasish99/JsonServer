@@ -1,40 +1,28 @@
 {
-  "Employees": [
+  "employees": [
     {
       "id": 1,
-      "name": "Ashish Ghosh",
-      "dept": "QEA",
-      "empID": "401532"
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
     },
     {
       "id": 2,
-      "name": "Virat Kohli ",
-      "dept": "QEA",
-      "empID": "401533"
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
     },
     {
-      "name": "Ashish1 Ghosh1",
-      "dept": "QEA",
-      "empID": "401535",
-      "id": 3
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "email": "ann@codingthesmartway.com"
     },
     {
-      "name": "Sachin Tendulkar",
-      "dept": "QEA",
-      "empID": "401535",
+      "first_name": "Ashish",
+      "last_name": "Ghosh",
+      "email": "ashish@codingthesmartway.com",
       "id": 4
-    },
-    {
-      "name": "Sachin Tendulkar",
-      "dept": "QEA",
-      "empID": "401535",
-      "id": 5
-    },
-    {
-      "name": "Sachin Tendulkar",
-      "dept": "QEA",
-      "empID": "401535",
-      "id": 6
     }
   ]
 }

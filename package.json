@@ -4,15 +4,21 @@
   "description": "MY REST API",
   "main": "index.js",
   "scripts": {
-    "test": "spec/apitest.js"
+    "start": "json-server --watch db.json"
   },
   "author": "Ashish Ghosh",
   "license": "ISC",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "json-server": "^0.16.1",
-    "mocha": "^8.0.1",
-    "request": "^2.88.2",
-    "should": "^13.2.3"
-  }
+  "devDependencies": {},
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
+  "engines": {"node": "^10.14.1"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghoshasish99/JsonServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ghoshasish99/JsonServer/issues"
+  },
+  "homepage": "https://github.com/ghoshasish99/JsonServer#readme"
 }
