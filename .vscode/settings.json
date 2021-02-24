@@ -1,8 +1,0 @@
-{
-    "appService.deploySubpath": ".",
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/e544e254-0cee-4a6a-a050-e6d1caae1283/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ashishjsonserver"
-}
