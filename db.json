@@ -23,6 +23,30 @@
       "last_name": "Ghosh",
       "email": "ashish@codingthesmartway.com",
       "id": 4
+    },
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "John.Doe@jsonserver.com",
+      "id": 5
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "Jane.Doe@jsonserver.com",
+      "id": 6
+    },
+    {
+      "first_name": "Peter",
+      "last_name": "Parker",
+      "email": "spiderman@jsonserver.com",
+      "id": 7
+    },
+    {
+      "first_name": "Bruce",
+      "last_name": "Wayne",
+      "email": "batman@jsonserver.com",
+      "id": 8
     }
   ]
 }

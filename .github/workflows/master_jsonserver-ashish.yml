@@ -1,7 +1,4 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy Node.js app to Azure Web App - jsonserver-ashish
+name: Deploy JSON Server to Azure Web App
 
 on:
   push:
@@ -21,16 +18,10 @@ jobs:
       with:
         node-version: '10.x'
 
-    - name: npm install, build, and test
-      run: |
-        npm install
-        npm start
-        
-
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'jsonserver-ashish'
+        app-name: 'json-server-1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_13f19853373d44a9aa831ef4c801568f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e52ab2b27cb74e44b7a6ee2b1bf6386c }}
         package: .
