@@ -1,52 +1,35 @@
 {
-  "users": [
+  "customers": [
     {
       "id": 1,
       "first_name": "Sebastian",
       "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
-    },
+      "age" : 31,
+      "email": "sebastian@testingthesmartway.com",
+      "nationality" : "Netherlands",
+      "date_of_incorporation" : "23/03/2020",
+      "sector" : 1002,
+      "status_code" : 4,
+      "customer_rating" : 2,
+      "customer_code" : 102233
+    }
+  ],
+  "accounts": [
     {
-      "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
+      "id": 1,
+      "account_officer": 3,
+      "account_type": "current",
+      "account_id": "NLBANK20B6071",
+      "customer_code" : 102233
+    }
+  ],
+  "transactions": [
     {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
-    },
-    {
-      "first_name": "Ashish",
-      "last_name": "Ghosh",
-      "email": "ashish@codingthesmartway.com",
-      "id": 4
-    },
-    {
-      "first_name": "John",
-      "last_name": "Doe",
-      "email": "John.Doe@jsonserver.com",
-      "id": 5
-    },
-    {
-      "first_name": "Jane",
-      "last_name": "Doe",
-      "email": "Jane.Doe@jsonserver.com",
-      "id": 6
-    },
-    {
-      "first_name": "Peter",
-      "last_name": "Parker",
-      "email": "spiderman@jsonserver.com",
-      "id": 7
-    },
-    {
-      "first_name": "Bruce",
-      "last_name": "Wayne",
-      "email": "batman@jsonserver.com",
-      "id": 8
+      "id": 1,
+      "debit_account": "NLBANK20B6071",
+      "credit_account": "internal",
+      "amount": 500,
+      "transaction_status" : "success"
     }
   ]
 }
